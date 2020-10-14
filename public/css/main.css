@@ -1,0 +1,30 @@
+/* O que é regra css? 
+    Sempre é mudado em seu último estado
+    Dependendo da sua especificidade
+    Cada seletor tem um peso para cascata
+
+  rem: Ele sempre vai pegar do root, ou seja, Root Element
+  em: Equivale a X px busca do elemento anterior sempre
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; /* Equivale a 10% ou 10px */
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+body,
+input,
+button,
+textarea {
+  /* font: font-weight font-size/line-height, font-family */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}

@@ -1,0 +1,57 @@
+#page-landing {
+  background: linear-gradient(329.59deg, #29b6d1 0%, #00c7c7 100%);
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+}
+
+#container {
+  width: 90%; /* Inserindo 90% para ser aplicado o margin */
+  margin: auto; /* Só vai funcionar de alinhar em todos os lados caso o elemento pai seja flex */
+}
+
+.location,
+h1,
+.visit p {
+  height: 16vh;
+}
+
+.visit a {
+  width: 8rem;
+  height: 8rem;
+  background: #ffd666;
+
+  border: none;
+  border-radius: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto; /* Alinhando ao centro */
+  transition: background 0.3s;
+}
+
+.visit a:hover {
+  background: #96feff;
+}
+
+#logo {
+  animation-delay: 50ms;
+}
+
+.location {
+  animation-delay: 100ms;
+}
+
+main h1 {
+  animation-delay: 150ms;
+}
+
+.visit p {
+  animation-delay: 200ms;
+}
+
+.visit a {
+  animation-delay: 250ms;
+}
