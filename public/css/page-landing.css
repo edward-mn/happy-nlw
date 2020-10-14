@@ -6,7 +6,11 @@
 }
 
 #container {
-  width: 90%; /* Inserindo 90% para ser aplicado o margin */
+  /* 1120 * 74 - Valores tirados do figma */
+  width: min(
+    90%,
+    112rem
+  ); /* min é inteligente o suficente para decidir qual dos valores utilizar */
   margin: auto; /* Só vai funcionar de alinhar em todos os lados caso o elemento pai seja flex */
 }
 
@@ -14,6 +18,23 @@
 h1,
 .visit p {
   height: 16vh;
+}
+
+#logo {
+  animation-delay: 50ms;
+}
+
+.location {
+  animation-delay: 100ms;
+}
+
+main h1 {
+  animation-delay: 150ms;
+  font-size: clamp(4rem, 8vw, 8.4rem); /* clamp(mínimo, ideal, máximo); */
+}
+
+.visit p {
+  animation-delay: 200ms;
 }
 
 .visit a {
@@ -30,28 +51,63 @@ h1,
 
   margin: 0 auto; /* Alinhando ao centro */
   transition: background 0.3s;
+  animation-delay: 250ms;
 }
 
 .visit a:hover {
   background: #96feff;
 }
 
-#logo {
-  animation-delay: 50ms;
-}
+/* Desktop version */
+@media (min-width: 760px) {
+  /* 760 para cima irá aplicar a regras abaixo */
+  #container {
+    /* shorthand background: image no-repeat position / size */
+    background: url("../images/bg.svg") no-repeat 80% /
+      clamp(30rem, 54vh, 56rem);
+    padding: 5rem 2rem; /* Fazendo com que ele ultrapasse o valor da caixa definido */
+  }
 
-.location {
-  animation-delay: 100ms;
-}
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-main h1 {
-  animation-delay: 150ms;
-}
+  .location,
+  h1,
+  .visit p {
+    height: initial;
+    text-align: initial;
+  }
 
-.visit p {
-  animation-delay: 200ms;
-}
+  .location {
+    text-align: right;
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
 
-.visit a {
-  animation-delay: 250ms;
+  main h1 {
+    line-height: 0.93;
+    font-weight: bold;
+
+    margin: clamp(10%, 9vh, 12%) 0 4rem;
+    width: min(300px, 80%);
+  }
+
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .visit p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    width: clamp(20rem, 20vw, 300px);
+  }
+
+  .visit a {
+    margin: initial;
+  }
 }
