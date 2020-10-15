@@ -55,16 +55,16 @@ $ git clone git@github.com:edward-mn/happy-nlw.git
 ## :eyes: Demo
 - [Happy web](happy-web-nlw3.netlify.app/)
 
-## Author
+## 👤 Author
 
-* 👤 **Edward Moreira**
+* **Edward Moreira**
 * :octocat: [@edward-mn](https://github.com/edward-mn)
 * <a href="https://www.linkedin.com/in/edward-moreira-5b3056115/">
     <img alt="Linkedin - Edward Moreira" src="https://img.shields.io/badge/-Edward--Moreira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/edward-moreira-5b3056115/">
   </a> 
 * :rocket: [Edward Moreira](https://app.rocketseat.com.br/me/edward-moreira-do-nascimento-02578)
 
-## Show your support
+## :handshake: Show your support
 
 Give a ⭐️ if this project helped you or liked!
 
