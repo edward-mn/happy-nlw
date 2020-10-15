@@ -53,7 +53,7 @@ $ git clone git@github.com:edward-mn/happy-nlw.git
 - Want to participate: [Event](https://nextlevelweek.com/inscricao/3)
 
 ## :eyes: Demo
-* <a href="https://happy-web-nlw3.netlify.app/" target="_blank">Happy weeeb</a>
+* <a href="https://happy-web-nlw3.netlify.app/" target="_blank">Happy web</a>
 
 ## 👤 Author
 
