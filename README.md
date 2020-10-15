@@ -49,9 +49,8 @@ $ git clone git@github.com:edward-mn/happy-nlw.git
 
 ## 🔗 Important links:
 
-- Exchange of ideas with the communities: [Discord](https://discord.com/invite/zgvZhUP)
-- Event Information: [Handout](https://storage.googleapis.com/golden-wind/nextlevelweek/Apostila-NLW2.pdf)
-- Want to participate: [Event](https://nextlevelweek.com/inscricao/2)
+- Exchange ideas with the communities: [Discord](https://discord.com/invite/as33qEE)
+- Want to participate: [Event](https://nextlevelweek.com/inscricao/3)
 
 ## :eyes: Demo
 - [Happy web](happy-web-nlw3.netlify.app/)
