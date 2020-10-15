@@ -69,4 +69,4 @@ $ git clone git@github.com:edward-mn/happy-nlw.git
 Give a ⭐️ if this project helped you or liked!
 
 ***
-<p align="center"> This README was generated with ❤️ by me </p>
+<p align="center"> This README was created with ❤️ by me </p>
