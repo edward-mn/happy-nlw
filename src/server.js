@@ -1,28 +1,28 @@
 // importar dependencia/pacote
-const express = require('express');
+const express = require("express");
 
 //importanto o page criado
 const pages = require("./pages.js");
 
 // Utiliziando biblioteca do node para routes
-const path = require('path');
+const path = require("path");
 
 // iniciando express
 const server = express();
 
 server
   // Utilizando os arquivos estáticos(css, html e js) da pasta public
-  .use(express.static('public'))
+  .use(express.static("public"))
 
   // configurar template engine
-  .set('views', path.join(__dirname, "views"))
-  .set('view engine', 'hbs')
+  .set("views", path.join(__dirname, "views"))
+  .set("view engine", "hbs")
 
   // criar rotas da aplicação
-  .get('/', pages.index)
-  .get('/orphanages', pages.orphanages)
-  .get('/orphanage', pages.orphanage)
-  .get('/create-orphanage', pages.createOrphanage);
+  .get("/", pages.index)
+  .get("/orphanages", pages.orphanages)
+  .get("/orphanage", pages.orphanage)
+  .get("/create-orphanage", pages.createOrphanage);
 
 // ligar o servidor
 server.listen(5500);

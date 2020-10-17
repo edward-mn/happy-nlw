@@ -15,19 +15,36 @@ const icon = L.icon({
   popupAnchor: [170, 2],
 });
 
-// Create popup Overlay
-const popup = L.popup({
-  closeButton: false,
-  className: "map-popup",
-  minWidth: 240,
-  minHeight: 240,
-}).setContent(
-  'Casa da Criança <a href="/orphanage?id=1" class="choose-orphanage"> <img src="/images/arrow-white.svg" ></a>'
-);
+/* Template literous */
+function addMarker({ id, name, lat, lng }) {
+  /* Desistruturar o obj */
+  // Create popup Overlay
+  const popup = L.popup({
+    closeButton: false,
+    className: "map-popup",
+    minWidth: 240,
+    minHeight: 240,
+  }).setContent(
+    `${name} <a href="/orphanage?id=${id}"> <img src="/images/arrow-white.svg" ></a>`
+  );
 
-// Create and add Marker
-L.marker(orphanageSbo, {
-  icon,
-}) /* Quando o valor é igual a propriedade não há necessidade de duplicarmos */
-  .addTo(map)
-  .bindPopup(popup);
+  // Create and add Marker
+  L.marker([lat, lng], {
+    icon,
+  }) /* Quando o valor é igual a propriedade não há necessidade de duplicarmos */
+    .addTo(map)
+    .bindPopup(popup);
+}
+
+const orphanagesSpan = document.querySelectorAll(".orphanages span");
+
+orphanagesSpan.forEach((span) => {
+  const orphanage = {
+    id: span.dataset.id,
+    name: span.dataset.name,
+    lat: span.dataset.lat,
+    lng: span.dataset.lng,
+  };
+
+  addMarker(orphanage);
+});
