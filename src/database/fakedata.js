@@ -19,7 +19,7 @@ module.exports = [
   {
     id: 2,
     lat: "-22.743384",
-    lng: "-47.4211377",
+    lng: "-47.4131377",
     name: "Casa do jovem",
     description:
       "Presta assistência a crianças de 15 a 30 anos que sencontra em situações de reisco e/ou vulnerabilidade social.",

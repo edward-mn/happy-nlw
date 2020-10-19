@@ -11,6 +11,9 @@ const path = require("path");
 const server = express();
 
 server
+  // Utilizar body do req
+  .use(express.urlencoded({ extended: true }))
+
   // Utilizando os arquivos estáticos(css, html e js) da pasta public
   .use(express.static("public"))
 
@@ -22,7 +25,8 @@ server
   .get("/", pages.index)
   .get("/orphanages", pages.orphanages)
   .get("/orphanage", pages.orphanage)
-  .get("/create-orphanage", pages.createOrphanage);
+  .get("/create-orphanage", pages.createOrphanage)
+  .post("/save-orphanage", pages.saveOrphanage);
 
 // ligar o servidor
 server.listen(5500);

@@ -94,3 +94,12 @@ function toggleSelect(event) {
   // Verificar se Sim ou Não
   input.value = button.dataset.value;
 }
+
+function validate(event) {
+  // Validar se lat e lang estão preenchidos
+  /* if(true){
+    event.preventDefault();
+    alert('Selecione marque um Orfanato no mapa');
+  }
+  */
+}
