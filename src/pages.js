@@ -48,11 +48,6 @@ module.exports = {
   async saveOrphanage(req, res) {
     const fields = req.body;
 
-    // Validar se todos os campos estão preenchidos
-    if (Object.values(fields).includes("")) {
-      return res.send("Todos os campos devem ser preenchidos!");
-    }
-
     try {
       // Salvar um orphanato
       const db = await Database;
