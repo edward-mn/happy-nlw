@@ -100,9 +100,21 @@ function validate(event) {
   const lng = document.querySelector(".map-container input[data-lng]").value;
 
   // Validar se lat e lang estão preenchidos e Da foco após
-  if(!lat && !lng) {
+  if (!lat && !lng) {
     event.preventDefault();
-    alert('Selecione marque um Orfanato no mapa');
-    document.getElementById('mapid').focus(); 
+    alert("Selecione marque um Orfanato no mapa");
+    document.getElementById("mapid").focus();
   }
+}
+
+function numberField(event) {
+  formatWhatsapp(event.currentTarget, ".input-phone");
+}
+
+function formatWhatsapp(numberBR, input) {
+  console.log(numberBR);
+  return (numberBR = new Cleave(input, {
+    phone: true,
+    phoneRegionCode: "BR", // Defines brazilian number mask as standard
+  }));
 }
