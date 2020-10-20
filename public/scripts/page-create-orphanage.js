@@ -96,10 +96,13 @@ function toggleSelect(event) {
 }
 
 function validate(event) {
-  // Validar se lat e lang estão preenchidos
-  /* if(true){
+  const lat = document.querySelector(".map-container input[data-lat]").value;
+  const lng = document.querySelector(".map-container input[data-lng]").value;
+
+  // Validar se lat e lang estão preenchidos e Da foco após
+  if(!lat && !lng) {
     event.preventDefault();
     alert('Selecione marque um Orfanato no mapa');
+    document.getElementById('mapid').focus(); 
   }
-  */
 }
