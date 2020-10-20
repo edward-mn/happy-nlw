@@ -89,7 +89,13 @@
 
             <div class="input-block">
               <label for="whatsapp">Número de whatsapp</label>
-              <input id="whatsapp" name="whatsapp" required />
+              <input
+                id="whatsapp"
+                class="input-phone"
+                name="whatsapp"
+                onkeypress="numberField(event)"
+                required
+              />
             </div>
 
             <div class="input-block images">
@@ -169,6 +175,8 @@
         </form>
       </main>
     </div>
+    <script src="/scripts/cleave.min.js"></script>
+    <script src="/scripts/cleave-phone.i18n.js"></script>
     <script src="/scripts/page-create-orphanage.js"></script>
   </body>
 </html>
