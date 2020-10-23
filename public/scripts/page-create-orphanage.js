@@ -118,3 +118,30 @@ function formatWhatsapp(numberBR, input) {
     phoneRegionCode: "BR", // Defines brazilian number mask as standard
   }));
 }
+
+function validateQuantidyCharacters(event) {
+  let infoAbout = document.getElementById("about");
+  let textMaxCharacters = document.querySelectorAll(".input-block span");
+  let remains = document.getElementById("remains");
+  const quantityMaxCharacters = infoAbout.maxLength;
+  const Zero = 0;
+
+  let typedWords = event.currentTarget.value.length;
+
+  if (showRemainsWords(typedWords) == Zero) {
+    changeColorText("#ff669d");
+  } else {
+    changeColorText("#8fa7b3");
+  }
+
+  function showRemainsWords(quantity) {
+    return (remains.textContent = quantityMaxCharacters - quantity);
+  }
+
+  function changeColorText(color) {
+    textMaxCharacters.forEach((span) => {
+      span.style.transition = "color .5s";
+      span.style.color = color;
+    });
+  }
+}
