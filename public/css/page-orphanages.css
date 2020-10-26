@@ -40,6 +40,8 @@ aside footer p {
 }
 
 /* button */
+
+a.home,
 a.create-orphanages {
   position: absolute;
   right: 4rem;
@@ -49,7 +51,6 @@ a.create-orphanages {
 
   width: 6.4rem;
   height: 6.4rem;
-  background: #15c3d6;
   border: 0;
   border-radius: 2rem;
 
@@ -58,6 +59,19 @@ a.create-orphanages {
   justify-content: center;
 
   transition: background-color 0.2s;
+}
+
+a.home {
+  top: 4rem;
+  background-color: #ffc266;
+}
+
+a.home:hover {
+  background-color: #96feff;
+}
+
+a.create-orphanages {
+  background: #15c3d6;
 }
 
 a.create-orphanages:hover {

@@ -42,15 +42,14 @@
 
     <div class="orphanages">
       {{#each orphanages}}
-      <span 
-        hidden 
-        data-id="{{this.id}}"
-        data-name="{{this.name}}"
-        data-lat="{{this.lat}}"
-        data-lng="{{this.lng}}"
-      ></span>
+      <span hidden data-id="{{this.id}}" data-name="{{this.name}}" data-lat="{{this.lat}}"
+        data-lng="{{this.lng}}"></span>
       {{/each}}
     </div>
+
+    <a href="/" class="home" title="Ir para home">
+      <img src="/images/home.svg" alt="Voltar para página inicial" />
+    </a>
 
     <a href="/create-orphanage" class="create-orphanages" title="Cadastre um orfanato">
       <img src="/images/plus.svg" alt="Criar orfanato" />
@@ -58,4 +57,5 @@
   </div>
   <script src="/scripts/page-orphanages.js"></script>
 </body>
+
 </html>
