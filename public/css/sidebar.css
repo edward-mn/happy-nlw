@@ -10,12 +10,12 @@ aside.sidebar {
   justify-content: space-between;
 }
 
-aside.sidebar footer button {
+aside.sidebar footer button,
+aside.sidebar footer a {
   width: 48px;
   height: 48px;
   border: none;
 
-  background-color: #12afcb;
   border-radius: 1.6rem;
   cursor: pointer;
 
@@ -24,6 +24,19 @@ aside.sidebar footer button {
   justify-content: center;
 
   transition: background-color 0.2s;
+}
+
+aside.sidebar footer a {
+  margin-bottom: 25px;
+  background-color: #ffd666;
+}
+
+aside.sidebar footer a:hover {
+  background-color: #96feff;
+}
+
+aside.sidebar footer button {
+  background-color: #12afcb;
 }
 
 aside.sidebar footer button:hover {
