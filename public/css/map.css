@@ -5,6 +5,10 @@
   border-radius: 2rem;
 }
 
+.map-container:hover {
+  border: 1px dotted #15b6d6;
+}
+
 #mapid {
   width: 100%;
   height: 28rem;

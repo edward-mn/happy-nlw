@@ -83,7 +83,8 @@ fieldset + fieldset {
 }
 
 /* Adicionando um marcador apenas nos campos que estiverem sobre foco e não possuirem o a classe ignore */
-.input-block:not(.ignore):focus-within::after {
+.input-block:not(.ignore):focus-within::after,
+.input-block.buttons:focus-within::after {
   content: "";
 
   width: calc(100% - 2rem);
