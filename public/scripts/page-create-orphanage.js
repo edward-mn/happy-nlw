@@ -102,7 +102,11 @@ function validate(event) {
   // Validar se lat e lang estão preenchidos e Da foco após
   if (!lat && !lng) {
     event.preventDefault();
-    alert("Selecione marque um Orfanato no mapa");
+    x0p(
+      "Ops...",
+      "Acho que você esqueceu de marcar um Orfanato no mapa!",
+      "info"
+    );
     document.getElementById("mapid").focus();
   }
 }
@@ -112,7 +116,6 @@ function numberField(event) {
 }
 
 function formatWhatsapp(numberBR, input) {
-  console.log(numberBR);
   return (numberBR = new Cleave(input, {
     phone: true,
     phoneRegionCode: "BR", // Defines brazilian number mask as standard
