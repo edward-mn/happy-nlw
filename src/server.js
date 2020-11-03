@@ -23,6 +23,7 @@ server
 
   // criar rotas da aplicação
   .get("/", pages.index)
+  .get("/save-orphanage", pages.saveAnOrphanage)
   .get("/orphanages", pages.orphanages)
   .get("/orphanage", pages.orphanage)
   .get("/create-orphanage", pages.createOrphanage)

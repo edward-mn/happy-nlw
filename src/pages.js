@@ -41,6 +41,10 @@ module.exports = {
     }
   },
 
+  saveAnOrphanage(req, res) {
+    return res.render("save-orphanage");
+  },
+
   createOrphanage(req, res) {
     return res.render("create-orphanage");
   },
