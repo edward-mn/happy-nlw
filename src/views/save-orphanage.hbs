@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Save Orphanage | Happy Web</title>
+  <link rel="icon" href="/images/logo-icon.png" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/page-save.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="save-orphanage">
+    <div class="details">
+      <div class="container">
+        <img id="success-icon" src="/images/success-check.svg" class="animate-expand" />
+        <h1 class="animate-up">Orfanato salvo!</h1>
+
+        <p class="animate-up">Tudo certo, agora é possível visualizar seu orfanato em nosso mapa.
+        </p>
+        <p class="animate-up">Logo algúem entrará em contato marcando uma visita através do seu WhatsApp.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.onload = myTimeout;
+
+    function myTimeout() {
+      const time3s = 3000;
+      setTimeout(() => {
+        window.location.href = "/orphanages";
+      }, time3s);
+    }
+  </script>
+</body>
+
+</html>

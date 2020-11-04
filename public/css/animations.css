@@ -45,3 +45,21 @@
   animation-duration: 300ms;
   animation-fill-mode: backwards; /* Faz a transição perfeita - começa em 0 e termina em 1 */
 }
+
+@keyframes expand {
+  from {
+    opacity: 0.8;
+    height: 11rem;
+  }
+  to {
+    opacity: 1;
+    height: 15rem;
+  }
+}
+
+.animate-expand {
+  animation-name: expand;
+  animation-duration: 1500ms;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
