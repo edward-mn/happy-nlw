@@ -68,7 +68,7 @@ module.exports = {
       });
 
       // redirencionamento
-      return res.redirect("/orphanages");
+      return res.redirect("/save-orphanage");
     } catch (error) {
       console.log(error);
       return res.send("Erro no banco de dados");
