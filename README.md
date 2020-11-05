@@ -12,19 +12,36 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/edward-mn/happy-nlw?color=5622c9&logo=github">
   </a>
   
+  <img alt="Languages used" src="https://img.shields.io/github/languages/count/edward-mn/happy-nlw?color=5622c9">
+  
   <img alt="License" src="https://img.shields.io/badge/trail-discovery-cca714">   
 </p>
 
-> The central idea of application is create a repositry of **Orphanages** for you visit one day.
+<strong>
+  <p align="center">
+    <a href="#-about">About app</a> |
+    <a href="#-layout">Layout</a> |
+    <a href="#-technologies">Technologies</a> |
+    <a href="#-functionalities">Functionalities</a> |
+    <a href="#-my-next-level">My Next Level</a> | 
+    <a href="#-how-to-download-and-run">How to download and run</a> | 
+    <a href="#-important-links">Important links</a> | 
+    <a href="#-author">Author</a> | 
+    <a href="#-show-your-support">Suport</a>
+  </p>
+</strong>
 
-<p align="center">
-  <img src="./public/Wallpapers/NLW_03_1920x1080.png" alt="Next Level Week 03" title="Some"/>
-</p>
+## 💁 About
+The central idea of application is create a repositry of **Orphanages** for you visit one day.
 
-## :framed_picture: Pictures of app
+---
+
+## 🎨 Layout
 - ■■■■■■■■■■■□□□  NOWLOADING
 
-## :wrench: Technologies 
+---
+
+## 🛠 Technologies 
 - [HTML5](https://pt.wikipedia.org/wiki/HTML5)
 - [CSS3](https://pt.wikipedia.org/wiki/CSS3)
 - [Java Script](https://www.javascript.com/)
@@ -37,7 +54,9 @@
 - [x0popup ⚠](https://github.com/gao-sun/x0popup)
 - [Nominatim 🌍](https://github.com/osm-search/Nominatim)
 
-## :computer: Functionalities
+---
+
+## 🖥 Functionalities
 
 :round_pushpin: Localize nearby Orphanages:
 - The app will show for you the nearby it and you could open with Google Maps, to that creates your route of :smile: to the nearest Orphanage.
@@ -48,7 +67,9 @@
 :information_source: Info about the Orphanages
 - You could know everything about the Orphanages and How you must prepare yourself to make an awesome visit.
 
-## :up: My Next Level
+---
+
+## 🆙 My Next Level
 
 :heavy_check_mark: Save page and Redirect - [Issue](https://github.com/edward-mn/happy-nlw/issues/15)
 - Created a **new page** to show that Orphanage was saved and **redirect** to Orphanages page.
@@ -75,22 +96,40 @@
 ☎️ Formate Whatsapp - [Issue](https://github.com/edward-mn/happy-nlw/issues/1)
 - Add a **formater** at Whatsapp field to looks better
 
+---
 
-## :package: How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip)
+## 📦 How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip) and run
 ```bash
 # Clone's reposity
 $ git clone git@github.com:edward-mn/happy-nlw.git
-```
 
-## 🔗 Important links:
+# Acess the folder project into your vscode
+$ cd happy-nlw
+
+# Install the dependencies
+$ npm install
+
+# Execute run the app 
+$ npm start
+
+# The server will start in port:5500 - acess http://localhost:5500
+```
+---
+
+## 🔗 Important links
 
 - Exchange ideas with the communities: [Discord](https://discord.com/invite/as33qEE)
 - Want to participate: [Event](https://nextlevelweek.com/inscricao/3)
 
-## :eyes: Demo
-* <a href="https://happy-web-nlw3.netlify.app/" target="_blank">Happy web</a>
+> The central idea of application is create a repositry of **Orphanages** for you visit one day.
 
-## 👤 Author
+<p align="center">
+  <img src="./public/Wallpapers/NLW_03_1920x1080.png" alt="Next Level Week 03" title="Some"/>
+</p>
+
+---
+
+## 🦹‍ Author
 
 * **Edward Moreira**
 * :octocat: [@edward-mn](https://github.com/edward-mn)
@@ -99,9 +138,14 @@ $ git clone git@github.com:edward-mn/happy-nlw.git
   </a> 
 * :rocket: [Edward Moreira](https://app.rocketseat.com.br/me/edward-moreira-do-nascimento-02578)
 
-## :handshake: Show your support
+---
+
+## 🤝 Show your support
 
 Give a ⭐️ if this project helped you or liked!
 
 ***
-<p align="center"> This README was created with ❤️ by me </p>
+
+<strong>
+  <p align="center"> This README was created with ❤️ by me </p>
+</strong>
