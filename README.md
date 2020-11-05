@@ -28,7 +28,13 @@
 - [HTML5](https://pt.wikipedia.org/wiki/HTML5)
 - [CSS3](https://pt.wikipedia.org/wiki/CSS3)
 - [Java Script](https://www.javascript.com/)
-- [Banco de dados (Sqlite)](https://www.sqlite.org/index.html) 
+- [Banco de 🎲 (Sqlite)](https://www.sqlite.org/index.html)
+- [Leaflet 🍃](https://leafletjs.com/)
+- [Handlebars 🧔](https://github.com/handlebars-lang/handlebars.js)
+- [Nodemon](https://github.com/remy/nodemon)
+- [Express](https://github.com/expressjs/express)
+- [Cleave ☎](https://github.com/nosir/cleave.js)
+- [x0popup ⚠](https://github.com/gao-sun/x0popup)
 
 ## :computer: Functionalities
 
