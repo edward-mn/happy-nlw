@@ -47,6 +47,33 @@
 :information_source: Info about the Orphanages
 - You could know everything about the Orphanages and How you must prepare yourself to make an awesome visit.
 
+## :up: My Next Level
+
+:heavy_check_mark: Save page and Redirect - [Issue](https://github.com/edward-mn/happy-nlw/issues/15)
+- Created a **new page** to show that Orphanage was saved and **redirect** to Orphanages page.
+
+⚠ Change de alert to X0popup - [Issue](https://github.com/edward-mn/happy-nlw/issues/12)
+- Used x0popup to show for user that **has not marked** an orpahange at map
+
+🗺 Show the current location (City and State) on app - [Issue](https://github.com/edward-mn/happy-nlw/issues/11)
+- Used [Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation) to get a **City** and **State** current, if the user **block** the location, by default the city and state, will be the same as the course (Rio do Sul - Santa Catarina)
+
+🏠 Navigation to home easier - [Issue](https://github.com/edward-mn/happy-nlw/issues/9)
+- Add an **icon home** for go to the index
+
+👀 Quantity of characters is allowed - [Issue](https://github.com/edward-mn/happy-nlw/issues/7)
+- Show at run time the quantity of **characters is allowed**, when filling in the field **About**
+
+📌 Marker in selected fields - [Issue](https://github.com/edward-mn/happy-nlw/issues/3)
+- Show a **marker when we select fields**
+
+♻ Refactoring - [Issue](https://github.com/edward-mn/happy-nlw/issues/2)
+- **Remove the back-end's responsibility** to validate the fields (Lat and Lng) at 🌎
+
+☎️ Formate Whatsapp - [Issue](https://github.com/edward-mn/happy-nlw/issues/1)
+- Add a **formater** at Whatsapp field to looks better
+
+
 ## :package: How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip)
 ```bash
 # Clone's reposity
