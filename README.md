@@ -35,6 +35,7 @@
 - [Express](https://github.com/expressjs/express)
 - [Cleave ☎](https://github.com/nosir/cleave.js)
 - [x0popup ⚠](https://github.com/gao-sun/x0popup)
+- [Nominatim 🌍](https://github.com/osm-search/Nominatim)
 
 ## :computer: Functionalities
 
@@ -56,7 +57,8 @@
 - Used x0popup to show for user that **has not marked** an orpahange at map
 
 🗺 Show the current location (City and State) on app - [Issue](https://github.com/edward-mn/happy-nlw/issues/11)
-- Used [Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation) to get a **City** and **State** current, if the user **block** the location, by default the city and state, will be the same as the course (Rio do Sul - Santa Catarina)
+- Used [Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation) to get a **City** and **State** current through of [Nominatim 🌍](https://github.com/osm-search/Nominatim)
+- If the user **block** the location, by default the city and state, will be the same as the course (Rio do Sul - Santa Catarina)
 
 🏠 Navigation to home easier - [Issue](https://github.com/edward-mn/happy-nlw/issues/9)
 - Add an **icon home** for go to the index
