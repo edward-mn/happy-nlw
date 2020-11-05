@@ -19,11 +19,11 @@
 
 <strong>
   <p align="center">
-    <a href="#-about">About app</a> |
+    <a href="#-about">About</a> |
     <a href="#-layout">Layout</a> |
-    <a href="#-technologies">Technologies</a> |
     <a href="#-functionalities">Functionalities</a> |
     <a href="#-my-next-level">My Next Level</a> | 
+    <a href="#-technologies">Technologies</a> |
     <a href="#-how-to-download-and-run">How to download and run</a> | 
     <a href="#-important-links">Important links</a> | 
     <a href="#-author">Author</a> | 
@@ -32,27 +32,16 @@
 </strong>
 
 ## 💁 About
-The central idea of application is create a repositry of **Orphanages** for you visit one day.
+Happy is an application responsible for bringing happiness to children or young people in need.
+
+Because your main idea is to be an orphanage collector, that is, the more registered orphanages, the greater our variety in transmitting happiness and love to those who need it most.
+
+Now doing good has become even easier and more practical 😁!
 
 ---
 
 ## 🎨 Layout
 - ■■■■■■■■■■■□□□  NOWLOADING
-
----
-
-## 🛠 Technologies 
-- [HTML5](https://pt.wikipedia.org/wiki/HTML5)
-- [CSS3](https://pt.wikipedia.org/wiki/CSS3)
-- [Java Script](https://www.javascript.com/)
-- [Banco de 🎲 (Sqlite)](https://www.sqlite.org/index.html)
-- [Leaflet 🍃](https://leafletjs.com/)
-- [Handlebars 🧔](https://github.com/handlebars-lang/handlebars.js)
-- [Nodemon](https://github.com/remy/nodemon)
-- [Express](https://github.com/expressjs/express)
-- [Cleave ☎](https://github.com/nosir/cleave.js)
-- [x0popup ⚠](https://github.com/gao-sun/x0popup)
-- [Nominatim 🌍](https://github.com/osm-search/Nominatim)
 
 ---
 
@@ -98,6 +87,21 @@ The central idea of application is create a repositry of **Orphanages** for you 
 
 ---
 
+## 🛠 Technologies 
+- [HTML5](https://pt.wikipedia.org/wiki/HTML5)
+- [CSS3](https://pt.wikipedia.org/wiki/CSS3)
+- [Java Script](https://www.javascript.com/)
+- [Banco de 🎲 (Sqlite)](https://www.sqlite.org/index.html)
+- [Leaflet 🍃](https://leafletjs.com/)
+- [Handlebars 🧔](https://github.com/handlebars-lang/handlebars.js)
+- [Nodemon](https://github.com/remy/nodemon)
+- [Express](https://github.com/expressjs/express)
+- [Cleave ☎](https://github.com/nosir/cleave.js)
+- [x0popup ⚠](https://github.com/gao-sun/x0popup)
+- [Nominatim 🌍](https://github.com/osm-search/Nominatim)
+
+---
+
 ## 📦 How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip) and run
 ```bash
 # Clone's reposity
@@ -121,7 +125,7 @@ $ npm start
 - Exchange ideas with the communities: [Discord](https://discord.com/invite/as33qEE)
 - Want to participate: [Event](https://nextlevelweek.com/inscricao/3)
 
-> The central idea of application is create a repositry of **Orphanages** for you visit one day.
+> Project developed during the **NLW - Next Level Week#03** offered by [Rocketseat🚀](https://rocketseat.com.br/)
 
 <p align="center">
   <img src="./public/Wallpapers/NLW_03_1920x1080.png" alt="Next Level Week 03" title="Some"/>
