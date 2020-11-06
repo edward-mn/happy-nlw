@@ -31,7 +31,7 @@
     <a href="#-functionalities">Functionalities</a> |
     <a href="#-my-next-level">My Next Level</a> | 
     <a href="#-technologies">Technologies</a> |
-    <a href="#-how-to-download-and-run">How to download and run</a> | 
+    <a href="#-how-to-download-and-run">How to execute</a> | 
     <a href="#-important-links">Important links</a> | 
     <a href="#-author">Author</a> | 
     <a href="#-show-your-support">Suport</a>
@@ -52,9 +52,9 @@ Now doing good has become even easier and more practical 😁!
 ### 🖥 view
 
 <p align="center">
-  <img src="./public/layout/computer_index.png" alt="Logo NLW 03 - Happy app"/>
-  <img src="./public/layout/computer_save.png" alt="Logo NLW 03 - Happy app"/>
-  <img src="./public/layout/map_orphanages.png" alt="Logo NLW 03 - Happy app"/>
+  <img src="./public/layout/computer_index.png" alt="Computer view at Index - Happy"/>
+  <img src="./public/layout/computer_save.png" alt="Computer view at Save orphanage - Happy"/>
+  <img src="./public/layout/map_orphanages.png" alt="Computer view at Map orphanages- Happy"/>
 </p>
 
 ### 📱 view
@@ -62,19 +62,25 @@ Now doing good has become even easier and more practical 😁!
 <center>
 <table>
   <tr>
-      <td><img align="center" src="./public/layout/phone_index.png" alt="Logo NLW 03 - Happy app"/></td>
-      <td><img align="center" src="./public/layout/phone_save.png" alt="Logo NLW 03 - Happy app"/></td>
-      <td><img align="center" src="./public/layout/orphanage.png" alt="Logo NLW 03 - Happy app"/></td>
+      <td><img align="center" src="./public/layout/phone_index.png" alt="Phone veiw at Index - Happy"/></td>
+      <td><img align="center" src="./public/layout/phone_save.png" alt="Phone veiw at Save orphanage - Happy"/></td>
+      <td><img align="center" src="./public/layout/orphanage.png" alt="Phone veiw at Map orphanages - Happy"/></td>
   </tr>  
 </table>
 </center>
+
+### 👀 GIF
+
+<p align="center">
+  <img src="./public/layout/my_apresentation_app.gif" alt="GIF - Happy"/>
+</p>
 
 ---
 
 ## 🖥 Functionalities
 
 :round_pushpin: Localize nearby Orphanages:
-- The app will show for you the nearby it and you could open with Google Maps, to that creates your route of :smile: to the nearest Orphanage.
+- The app will show to you the nearby it and you could open with Google Maps, to that creates your route of :smile: to the nearest Orphanage.
 
 :new: Create new Orphanages
 - You could register new Orphanages and fill every information to others know more about it.
@@ -89,8 +95,8 @@ Now doing good has become even easier and more practical 😁!
 :heavy_check_mark: Save page and Redirect - [Issue](https://github.com/edward-mn/happy-nlw/issues/15)
 - Created a **new page** to show that Orphanage was saved and **redirect** to Orphanages page.
 
-⚠ Change de alert to X0popup - [Issue](https://github.com/edward-mn/happy-nlw/issues/12)
-- Used x0popup to show for user that **has not marked** an orpahange at map
+⚠ Change the alert to X0popup - [Issue](https://github.com/edward-mn/happy-nlw/issues/12)
+- Used x0popup to show for the user that **has not marked** an orphange at the map
 
 🗺 Show the current location (City and State) on app - [Issue](https://github.com/edward-mn/happy-nlw/issues/11)
 - Used [Geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation) to get a **City** and **State** current through of [Nominatim 🌍](https://github.com/osm-search/Nominatim)
@@ -108,8 +114,8 @@ Now doing good has become even easier and more practical 😁!
 ♻ Refactoring - [Issue](https://github.com/edward-mn/happy-nlw/issues/2)
 - **Remove the back-end's responsibility** to validate the fields (Lat and Lng) at 🌎
 
-☎️ Formate Whatsapp - [Issue](https://github.com/edward-mn/happy-nlw/issues/1)
-- Add a **formater** at Whatsapp field to looks better
+☎️ Format Whatsapp - [Issue](https://github.com/edward-mn/happy-nlw/issues/1)
+- Add a **formater** at Whatsapp field to look better
 
 ---
 
@@ -128,12 +134,12 @@ Now doing good has become even easier and more practical 😁!
 
 ---
 
-## 📦 How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip) and run
+## 👷 How to [download](https://github.com/edward-mn/happy-nlw/archive/master.zip) and <b>run<b>
 ```bash
-# Clone's reposity
+# Clone's repository
 $ git clone git@github.com:edward-mn/happy-nlw.git
 
-# Acess the folder project into your vscode
+# Access the folder project into your vscode
 $ cd happy-nlw
 
 # Install the dependencies
@@ -142,7 +148,7 @@ $ npm install
 # Execute run the app 
 $ npm start
 
-# The server will start in port:5500 - acess http://localhost:5500
+# The server will start in port:5500 - access http://localhost:5500
 ```
 ---
 
@@ -154,7 +160,7 @@ $ npm start
 > Project developed during the **NLW - Next Level Week#03** offered by [Rocketseat🚀](https://rocketseat.com.br/)
 
 <p align="center">
-  <img src="./public/Wallpapers/NLW_03_1920x1080.png" alt="Next Level Week 03" title="Some"/>
+  <img src="./public/Wallpapers/NLW_03_1920x1080.png" alt="Next Level Week 03"/>
 </p>
 
 ---
