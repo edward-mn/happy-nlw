@@ -2,6 +2,10 @@
   <img src="./public/Wallpapers/logo_happy.svg" alt="Logo NLW 03 - Happy app"/>
 </p>
 
+<p align="center">
+  <img src="./public/Wallpapers/multdevice_layout.png" alt="Logo NLW 03 - Happy app"/>
+</p>
+
 <p align="center">	
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/edward-mn/happy-nlw?color=CEDEE5">
 
@@ -60,7 +64,7 @@ Now doing good has become even easier and more practical 😁!
   <tr>
       <td><img align="center" src="./public/layout/phone_index.png" alt="Logo NLW 03 - Happy app"/></td>
       <td><img align="center" src="./public/layout/phone_save.png" alt="Logo NLW 03 - Happy app"/></td>
-      <td><img height="682px" align="center" src="./public/layout/orphanage.png" alt="Logo NLW 03 - Happy app"/></td>
+      <td><img align="center" src="./public/layout/orphanage.png" alt="Logo NLW 03 - Happy app"/></td>
   </tr>  
 </table>
 </center>
