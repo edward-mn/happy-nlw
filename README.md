@@ -44,7 +44,26 @@ Now doing good has become even easier and more practical 😁!
 ---
 
 ## 🎨 Layout
-- ■■■■■■■■■■■□□□  NOWLOADING
+
+### 🖥 view
+
+<p align="center">
+  <img src="./public/layout/computer_index.png" alt="Logo NLW 03 - Happy app"/>
+  <img src="./public/layout/computer_save.png" alt="Logo NLW 03 - Happy app"/>
+  <img src="./public/layout/map_orphanages.png" alt="Logo NLW 03 - Happy app"/>
+</p>
+
+### 📱 view
+
+<center>
+<table>
+  <tr>
+      <td><img align="center" src="./public/layout/phone_index.png" alt="Logo NLW 03 - Happy app"/></td>
+      <td><img align="center" src="./public/layout/phone_save.png" alt="Logo NLW 03 - Happy app"/></td>
+      <td><img height="682px" align="center" src="./public/layout/orphanage.png" alt="Logo NLW 03 - Happy app"/></td>
+  </tr>  
+</table>
+</center>
 
 ---
 
