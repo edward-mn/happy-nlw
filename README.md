@@ -1,18 +1,21 @@
-<h1 align="center">:smile: Happy | Next Level Week #03 :rocket:</h1>
+<p align="center">
+  <img src="./public/Wallpapers/logo_happy.svg" alt="Logo NLW 03 - Happy app"/>
+</p>
+
 <p align="center">	
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/edward-mn/happy-nlw?color=5622c9">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/edward-mn/happy-nlw?color=CEDEE5">
 
   <a href="https://github.com/edward-mn/happy-nlw/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/edward-mn/happy-nlw?color=5622c9">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/edward-mn/happy-nlw?color=29B6D1">
   </a> 
   
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-5622c9">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-cca714">
   
   <a href="https://github.com/edward-mn/happy-nlw/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/edward-mn/happy-nlw?color=5622c9&logo=github">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/edward-mn/happy-nlw?color=CEDEE5&logo=github">
   </a>
   
-  <img alt="Languages used" src="https://img.shields.io/github/languages/count/edward-mn/happy-nlw?color=5622c9">
+  <img alt="Languages used" src="https://img.shields.io/github/languages/count/edward-mn/happy-nlw?color=29B6D1">
   
   <img alt="License" src="https://img.shields.io/badge/trail-discovery-cca714">   
 </p>
